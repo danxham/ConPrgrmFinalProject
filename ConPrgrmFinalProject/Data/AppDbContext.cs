@@ -11,6 +11,10 @@ namespace ConPrgrmFinalProject.Data
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<Hobby> Hobbies { get; set; }
 
-        // Add other tables here
+        public DbSet<FavoriteGame> FavoriteGames { get; set; }
+
+        public DbSet<PetInfo> PetInfos { get; set; }
+
+
     }
 }
